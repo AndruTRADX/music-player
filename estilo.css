@@ -1,0 +1,115 @@
+* {font-family: sans-serif;
+    box-sizing: border-box;}
+
+body {
+    background: linear-gradient(90deg,#400f55,#0173a7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+/* player */
+
+.player {
+    background: #0000009f;
+    min-width: 380px;
+    max-width: 490px;
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 2rem;
+    color: #ffffff;
+    box-shadow: 3px 3px 3px #000000;
+    margin: 2rem;
+}
+
+/* titulo */
+
+.title {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* cover */
+.cover {
+    width: 320px;
+    height: 190px; 
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/* barra de progreso */
+
+.progress-container {
+    height: 0.5rem;
+    background: rgba(255, 255, 255, 0.13);
+    margin: 1rem 0 1rem 0;
+    border-radius: 6px;
+}
+
+.progress {
+    background: linear-gradient(90deg,#0ff,#610b9f);
+    height: 100%;
+    width: 0;
+    border-radius: 6px;
+}
+
+/* controles */
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+}
+
+.controls i {
+    font-size: 1.3rem;
+    color: #fff5;
+}
+
+.controls i.active {color: #fff;}
+.controls i.active:hover {color: rgba(255, 255, 255, 0.75); cursor: pointer;}
+.controls i.active:active {color: rgba(255, 255, 255, 0.5);}
+
+/* canciones */
+
+.song {
+    background: #0000009f;
+    width: 380px;
+    border-radius: 1rem;
+    justify-content: center;
+    color: #ffffff;
+    box-shadow: 3px 3px 3px #000000;
+    margin: 0 1rem 0 1rem;
+}
+
+.songs {
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+.songs li {
+    margin-bottom: .5rem;
+}
+
+.songs a {
+    color: #fff5;
+    text-decoration: none;
+}
+
+.songs a.active {color: #fff; font-weight: bold;}
+
+.songs a:hover {
+    color: #ffffffbd;
+    transition: .5s;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reproductor de música</title>
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!-- player -->
+    <main class="player">
+        
+        <!-- titulo -->
+        <h2 class="title">Selecciona una canción</h2>
+        
+        <!-- cover -->
+        <img src="a.png" alt="" class="cover">
+
+        <!-- audio Media HTML Element -->
+        <audio src="" id="audio"></audio>
+        
+        <!-- barra de progreso -->
+        <div class="progress-container">
+            <section class="progress"></section>
+        </div>
+
+        <!-- controles -->
+        <section class="controls">
+            <button class="prev">
+                <i class="fas fa-backward" id="prev"></i>
+            </button>
+            <button class="play">
+                <i class="fas fa-play" id="play"></i>
+            </button>
+            <button class="next">
+                <i class="fas fa-forward" id="next"></i>
+            </button>
+            <button class="random">
+                <i class="fa-solid fa-shuffle" id="random"></i>
+            </button>
+        </section>
+        
+    </main>
+
+    <main class="song">
+        <!-- canciones -->
+        <ul class="songs" id="songs">
+            <!-- <li><a href="#">song 1</a></li>
+            <li><a href="#">song 2</a></li>
+            <li><a href="#">song 3</a></li> -->
+        </ul>
+    </main>
+
+    
+
+
+
+<!-- scripts -->
+    <script src="codigo.js" ></script>
+</body>
+</html>
