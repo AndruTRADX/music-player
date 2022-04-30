@@ -1,6 +1,6 @@
 "use strict";
 
-// datos de canciones 
+// base de datos de canciones
 const songList = [
     {
         title: "Enemy - Imagine dragons",
