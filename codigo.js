@@ -5,17 +5,17 @@ const songList = [
     {
         title: "Enemy - Imagine dragons",
         file: "enemy.mp3",
-        cover: "img1.png"
+        cover: "https://i.ibb.co/8MfG2wH/570157.jpg"
     },
     {
         title: "Avenged Sevenfold - Hail To The King",
         file: "Avenged Sevenfold  Hail To The King.mp3",
-        cover: "img2.png"
+        cover: "https://kubomusical.com/wp-content/uploads/2021/07/avenged-sevenfold-hail-to-the-king.jpg"
     },
     {
         title: "Grabbitz - Die for you",
         file: "valorant.mp3",
-        cover: "img3.png"
+        cover: "https://i.ibb.co/X34krh3/1149345.jpg"
     },
 ]
 
