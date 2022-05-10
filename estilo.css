@@ -1,5 +1,6 @@
 * {font-family: sans-serif;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;}
 
 body {
     display: flex;
@@ -11,7 +12,7 @@ body {
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg,#1F618D, #6C3483 , #1A5276, #5B2C6F);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -20,14 +21,13 @@ body {
 /* player */
 
 .player {
-    background: #0000009f;
+    background: #17202A;
     min-width: 380px;
-    max-width: 490px;
+    max-width: 560px;
     border-radius: 1rem;
     justify-content: center;
     padding: 2rem;
     color: #ffffff;
-    box-shadow: 3px 3px 3px #000000;
     margin: 2rem;
 }
 
@@ -46,6 +46,7 @@ body {
     margin: 0 auto 0 auto;
     border-radius: 1rem;
     object-fit: cover;
+    opacity: 0.75;
 }
 
 /* barra de progreso */
@@ -58,7 +59,7 @@ body {
 }
 
 .progress {
-    background: linear-gradient(90deg,#0ff,#610b9f);
+    background: linear-gradient(90deg,#2471A3, #7D3C98);
     height: 100%;
     width: 0;
     border-radius: 6px;
@@ -89,12 +90,11 @@ body {
 /* canciones */
 
 .song {
-    background: #0000009f;
+    background: #17202A;
     width: 380px;
     border-radius: 1rem;
     justify-content: center;
     color: #ffffff;
-    box-shadow: 3px 3px 3px #000000;
     margin: 0 1rem 0 1rem;
 }
 
@@ -134,21 +134,21 @@ body {
 
 @media only screen and (max-width: 600px) {
     .player {
-        min-width: 300px;
-        max-width: 300px;
+        min-width: 340px;
+        max-width: 340px;
     }
 
     .cover {
-        width: 250px;
+        width: 275px;
         height: 150px;
     }
 
     .title {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .song {
-        width: 300px;
+        width: 340px;
     }
 
     .songs li {
